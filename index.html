@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QBurguer</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Titan+One&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	vertical-align: baseline;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 2rem;
+    color: #ec1d23;
+    font-family: 'Titan One', cursive;
+}
+
+h1:hover {
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+    color: #ffbb36;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2.5rem;
+}
+
+.container h2 {
+    font-size: 1.4rem;
+    font-weight: light;
+    text-align: center;
+    color: #ffbb36;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.container img {
+    height: 250px;
+    width: 100%;
+    transition: transform .5s ease-in-out;
+}
+
+.container img:hover {
+    filter:contrast(155%);
+}
+
+.container p {
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    color: white;
+}
+
+footer {
+    background-color: #4d4a4a2a;
+    padding: 1.2rem;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 400px)
+{
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        margin: 0;
+        justify-content: center;
+    }
+
+    .container p {
+        text-align: center;
+    }
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <h1>AMSTERDAM BURGUER</h1>
+
+    <main class="container">
+        <div>
+            <h2>Delícia de frango</h2>
+            <img src="imagem1.jpg">
+            <p>Pão especial, frango, alface, tomate e maionese.</p>
+        </div>
+        <div>
+            <h2>Light & Fresh</h2>
+            <img src="imagem2.jpg">
+            <p>Pão branco, hamburguer, alface, tomate e cheddar.</p>
+        </div>
+        <div>
+            <h2>Rapidex</h2>
+            <img src="imagem3.jpg">
+            <p>Pão australiano, queijo, hamburguer e bacon.</p>
+        </div>
+        <div>
+            <h2>Maravilha de verão</h2>
+            <img src="imagem4.jpg">
+            <p>Pão com gergelim, hamburguer especial e queijo.</p>
+        </div>
+        <div>
+            <h2>Summer dream</h2>
+            <img src="imagem5.jpg">
+            <p>Pão de primeira, carne de porco, ketchup e queijo.</p>
+        </div>
+        <div>
+            <h2>Maravilha da China</h2>
+            <img src="imagem6.jpg">
+            <p>Pão especial, hamburguer de berinjela e molho.</p>
+        </div>
+    </main>
+    <footer>Kraskin Websites</footer>
+    
+</body>
+<script src="script.js"></script>
+</html>
